@@ -11,9 +11,10 @@ function App() {
       <>
    <NavBar/>
    <Banner/>
-   <RowPost url={originals} title = 'Netflix Originals'/>
+   <RowPost url={originals} title = 'Popular on Netflix'/>
    <RowPost url={action}title = 'Action' isSmall/>
-   <RowPost url={action}title = 'Action' isSmall/>
+   <RowPost url={action}title = 'Drama' isSmall/>
+   <RowPost url={action}title = 'Comedy' isSmall/>
    </>
     </div>
    
